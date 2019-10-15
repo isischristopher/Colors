@@ -1,12 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
-
-const hi = () => {
-  console.log('hi');
-};
+import arrayMethods from './arrayMethods';
 
 const init = () => {
-  document.getElementById('btn').addEventListener('click', hi);
+  arrayMethods.init();
 };
 
 init();
